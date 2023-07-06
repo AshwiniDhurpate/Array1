@@ -1,0 +1,11 @@
+let array1 = [
+  { id: 1, name: "Oliver" },
+  { id: 2, name: "Liam" },
+];
+let array2 = [
+  { id: 1, name: "Oliver" },
+  { id: 3, name: "James" },
+  { id: 4, name: "Lucas" },
+];
+let newContact = array1.filter((item) => item.id !== array2.id);
+console.log("newContact :", newContact);
